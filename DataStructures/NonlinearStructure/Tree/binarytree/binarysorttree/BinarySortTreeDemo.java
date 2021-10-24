@@ -19,6 +19,7 @@ public class BinarySortTreeDemo {
         System.out.println("中序遍历：");
         System.out.println("中序遍历2：");
         System.out.println("中序遍历3：");
+        System.out.println("master test");
         binarySortTree.infixOrder();
 
         binarySortTree.delNode(7);
