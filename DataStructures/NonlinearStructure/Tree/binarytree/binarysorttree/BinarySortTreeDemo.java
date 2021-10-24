@@ -7,7 +7,7 @@ package NonlinearStructure.Tree.binarytree.binarysorttree;
  */
 public class BinarySortTreeDemo {
     public static void main(String[] args) {
-        int[] arr = {7, 3, 10, 12, 5, 1, 9,2};
+        int[] arr = {7, 3, 10, 12, 5, 1, 9, 2};
         BinarySortTree binarySortTree = new BinarySortTree();
 
         //循环添加结点
@@ -17,7 +17,8 @@ public class BinarySortTreeDemo {
 
         //中序遍历
         System.out.println("中序遍历：");
-        System.out.println("中序遍历：");
+        System.out.println("中序遍历2：");
+        System.out.println("中序遍历3：");
         binarySortTree.infixOrder();
 
         binarySortTree.delNode(7);
